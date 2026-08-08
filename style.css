@@ -38,6 +38,10 @@ body {
     margin: 20px auto;
     border-top: 5px solid #d4af37;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.mensagem:hover{
+    transform: translateY(-8px)
 }
 
 .mensagem h2 {
@@ -67,6 +71,12 @@ body {
     margin: 20px auto;
     border-top: 5px solid #d4af37;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mensagempai:hover{
+    transform: translateY(-8px)
+
 }
 
 .mensagempai p {
